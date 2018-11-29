@@ -1,0 +1,312 @@
+/*sublime01.css*/
+
+body {
+	margin: 24px 10px;
+	font-family: Arial, '新細明體', sans-serif;
+}
+
+#container {
+	width: 960px;
+	margin:auto;
+}
+
+header {
+	margin-bottom: 10px;
+}
+
+#headerpost {
+	margin-bottom: 30px;
+}
+
+#content {
+	margin-bottom: : 30px;
+	overflow:hidden;
+}
+
+.post{
+	float:left;
+	width:300px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+}
+
+.post img {
+	width: 280px;
+}
+
+.post:last-child {
+    margin-right: 0;
+}
+
+.post+.post+.post+.post {
+    margin-right: 0;
+}
+
+/* hearder logo */
+
+#site{
+	float:left;
+}
+
+#site h1{
+	margin:0;
+}
+
+#site img {
+	vertical-align: :bottom;
+	width: 960px;
+}
+
+
+
+
+/*Header Nav*/
+nav {
+	float: right;
+	font-size: 15px;
+	font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
+	padding-top: 0px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+	list-style-type: none;
+	float: left;
+}
+
+nav li a {
+display: block;
+float: left;
+margin-left: 20px;
+margin-top:  0px;
+text-decoration: none;
+border-bottom: solid 3px transparent;
+color:#ad9775;
+}
+
+nav li a:hover {
+    border-bottom-color: #ff1e97;
+}
+
+
+/*headerpost*/
+
+#headerpost {
+	margin-top: 50px
+	
+}
+
+#headerpost img {
+    float: left;
+    vertical-align: bottom;
+    width: 450px;
+}
+
+
+
+#headerpost #hpost01 {
+    float: left;
+    width: 400px;
+    color: white;
+    margin-left: 25px;
+}
+
+#headerpost h2 {
+    margin: 20px 0;
+}
+
+#headerpost .more {
+    font-size: 18px;
+    font-family: 'Maven Pro', Helvetica, Arial, sans-serif;
+    text-align: right;
+}
+
+#headerpost .more a {
+    color: #F7E7CE;
+    
+    background-size: 28px;
+    background-repeat: no-repeat;
+    background-position: right center;
+    display: block;
+    padding: 10px 40px 10px 0;
+    text-decoration: none;
+}
+
+#headerpost {
+    background-color: #333333;
+    background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#888888));
+    background: -webkit-linear-gradient(#000000 0%, #888888 100%);
+    background: -moz-linear-gradient(#000000 0%, #888888 100%);
+    background: -o-linear-gradient(#000000 0%, #888888 100%);
+    background: -ms-linear-gradient(#000000 0%, #888888 100%);
+    background: linear-gradient(#000000 0%, #888888 100%);
+    overflow: hidden;
+}
+
+
+.post img {
+    width: 300px;
+   
+    vertical-align: bottom;
+    border: none;
+}
+
+.post h2 {
+    font-size: 16px;
+    margin: 5px 0 0;
+}
+
+.post p {
+    font-size: 12px;
+    margin: 10px 0;
+}
+
+.post .data {
+    float: left;
+    margin: 0;
+}
+
+.post .more_s {
+    float: right;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Macen Pro', Helvetica, Arial, sans-serif;
+    background-color: #666666;
+    background-image: url(img/more.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: 94% 50%;
+    padding: 3px 25px 3px 5px;
+    margin: 0;
+}
+
+.post a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    overflow: hidden;
+}
+
+.post a:hover {
+    background-color: #8c6464
+}
+
+
+
+
+
+
+footer {
+	width:960px;
+	margin:auto;
+    background-color: #8c6464;
+    padding: 5px;
+}
+
+
+footer p {
+    float: left;
+    margin-top: 10px;
+    color: black
+}
+
+#iconmenu {
+    float: right;
+}
+
+#iconmenu ul {
+    margin: 0;
+    padding: 3px 0 0;
+}
+
+#iconmenu li {
+    display: inline;
+    list-style-type: none;
+}
+
+#iconmenu img {
+    border: none;
+    width: 28px;
+}
+
+#submenu {
+    clear: both;
+    font-family: 'Maven Pro', Helvetica, Arial, san-serif;
+    font-size: 12px;
+    overflow: hidden;
+}
+
+#submenu ul {
+    margin: 3px;
+    padding: 0;
+}
+
+#submenu li {
+    list-style-type: none;
+    float: left;
+}
+
+#submenu li a {
+    display: block;
+    width: auto;
+    border-right: solid 1px #ffffff;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding-right: 6px;
+    margin-right: 3px;
+}
+
+#submenu li:last-child a {
+    border: none;
+}
+
+#submenu li+li+li a {
+    border: none;
+}
+
+small {
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    color: black;
+    margin-top: 10px;
+}
+/*try*/
+#bcontainer {
+    position:relative;
+    
+    
+
+
+}
+#bcontents {
+    background:white;
+    
+}
+
+#bcontents img{
+    width:960px;
+    
+}
+#bgradient {
+    position:absolute;
+    z-index:2;
+    right:0; bottom:0; left:0;
+    height:250px;
+    width:960px;
+    background: none;
+    background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 80%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(80%,rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+
+}
